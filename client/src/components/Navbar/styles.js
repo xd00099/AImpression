@@ -24,7 +24,7 @@ export default makeStyles((theme) => ({
   },
   heading: {
     fontFamily: "Chalkduster, fantasy",
-    fontSize: '2.5em',
+    fontSize: '2em',
     fontWeight: 1000,
     color: "#1DA1F2",
     [theme.breakpoints.down('sm')]: {

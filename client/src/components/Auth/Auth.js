@@ -7,7 +7,7 @@ import jwt_decode from 'jwt-decode';
 import { useDispatch } from 'react-redux';
 import { useNavigate } from 'react-router-dom';
 import { signin, signup } from '../../actions/auth';
-import bgimg from '../../images/welcome.jpg'
+import bgimg from '../../images/welcome.png'
 import { GoogleLogin } from '@react-oauth/google';
 
 const initialState = { firstName: '', lastName: '', email: '', password: '', confirmPassword: ''};
@@ -122,7 +122,7 @@ const Auth = () => {
                     backgroundSize: 'cover',
                     backgroundPosition: 'center'
                 }}>
-                <h2 className={classes.text}>Welcome to SocialWall!</h2>
+                <h2 className={classes.text}>AImpression</h2>
             </Grid>
             <Grid xs={12} sm={8} md={5} className={classes.paper} elevation={3}>
                 <Avatar className={classes.avatar}>
@@ -150,7 +150,8 @@ const Auth = () => {
                         Continue as Guest
                     </Button>
                     <div style={{display: 'flex', justifyContent: 'end'}}>
-                        <GoogleLogin type='standard' theme='filled_blue' onSuccess={(response) => googleSuccess(response)}></GoogleLogin>
+                        <GoogleLogin 
+                        style={{width: '100%'}} type='standard' theme='filled_blue' onSuccess={(response) => googleSuccess(response)}></GoogleLogin>
                     </div>
                     <Grid container justifyContent='flex-end'>
                         <Grid item style={{paddingTop:'5px'}}>
@@ -161,7 +162,7 @@ const Auth = () => {
                     </Grid>
                 </form>
                 <Typography variant="body2" color="text.secondary" align="center" style={{paddingTop:'20px'}}>
-                    {'Copyright © SocialWall '}
+                    {'Copyright © AImpression '}
                     {new Date().getFullYear()}
                 </Typography>
             </Grid>

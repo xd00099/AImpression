@@ -55,9 +55,21 @@ export default makeStyles((theme) => ({
     margin: theme.spacing(3, 0, 2),
   },
   googleButton: {
-    display: 'block',
-    marginLeft: 'auto',
-    marginRight: 'auto',
-    width: '50%',
+    display: 'flex',
+    justifyContent: 'center',
+    alignItems: 'center',
+    width: '100%',
+  },
+  customGoogleButton: {
+    display: 'flex',
+    justifyContent: 'center',
+    alignItems: 'center',
+    width: '100%',
+    backgroundColor: '#4285F4', // Google blue color
+    color: 'white',
+    padding: '12px',
+    borderRadius: '4px',
+    cursor: 'pointer',
+    // Add any other styles you'd like for your custom button
   },
 }));

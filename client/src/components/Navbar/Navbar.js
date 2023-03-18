@@ -39,7 +39,7 @@ const Navbar = () => {
 
   return (
     <AppBar className={classes.appBar} color="primary" position="static">
-      <Button component={Link} to='/posts' className={classes.heading} align="center">SocialWall</Button>
+      <Button component={Link} to='/posts' className={classes.heading} align="center">AImpression</Button>
       <Toolbar className={classes.toolbar}>
         {user?.result ? (
           <div className={classes.profile}>

@@ -59,9 +59,9 @@ const Form = ({ currentId, setCurrentId }) => {
   return (
     <Paper className={classes.paper} elevation={6}>
       <form autoComplete="off" noValidate className={`${classes.root} ${classes.form}`} onSubmit={handleSubmit}>
-        <Typography variant="h6">{currentId ? `Editing "${post?.title}"` : 'Creating a New Post'}</Typography>
+        <Typography variant="h6">{currentId ? `Editing "${post?.title}"` : 'New Post'}</Typography>
         {/* <TextField name="title" variant="outlined" label="Title" fullWidth value={postData.title} onChange={(e) => setPostData({ ...postData, title: e.target.value })} /> */}
-        <TextField name="message" variant="outlined" label="At this moment..." fullWidth multiline minRows={4} value={postData.message} onChange={(e) => setPostData({ ...postData, message: e.target.value })} />
+        <TextField name="message" variant="outlined" label="Prompt..." fullWidth multiline minRows={4} value={postData.message} onChange={(e) => setPostData({ ...postData, message: e.target.value })} />
         {/* <TextField 
                     name="tags" 
                     variant="outlined" 
@@ -74,7 +74,7 @@ const Form = ({ currentId, setCurrentId }) => {
               <ChipInput
                 name="tags"
                 variant="outlined"
-                label="Tags"
+                label="'Enter' to add tags"
                 fullWidth
                 value={postData.tags}
                 onAdd={(chip) => handleAddChip(chip)}
