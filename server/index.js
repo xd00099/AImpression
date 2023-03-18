@@ -18,7 +18,7 @@ app.use('/posts', postRoutes);
 app.use('/user', userRoutes);
 
 app.get('/', (req, res) => {
-    res.send('Hello to SocialWall API!');
+    res.send('Hello to AImpression API!');
 })
 
 const PORT = process.env.PORT || 5001;
