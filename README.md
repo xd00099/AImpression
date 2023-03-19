@@ -4,24 +4,11 @@
 A full stack application using MERN. 
 
 ## Link (deployed w/ free tier Heroku, may take a while to load content): 
-https://social-wall.netlify.app/
+https://aimpression.netlify.app/
 
 
-# Demo
-
-## Home View:
 ![](./images/home.png)
 
-## Main Page:
-PC view            |  Mobil View
-:-------------------------:|:-------------------------:
-![](./images/demo.png)  |  ![](./images/demo_ui2.png)
-
-## Recommendation:
-![demo](./images/recom.png)
-
-## Comment System:
-![comment](./images/comment.png)
 
 # Key Features
 - Friendly UI for unique users
