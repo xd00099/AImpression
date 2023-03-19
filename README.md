@@ -7,21 +7,8 @@ A full stack application using MERN.
 https://social-wall.netlify.app/
 
 
-# Demo
-
-## Home View:
 ![](./images/home.png)
 
-## Main Page:
-PC view            |  Mobil View
-:-------------------------:|:-------------------------:
-![](./images/demo.png)  |  ![](./images/demo_ui2.png)
-
-## Recommendation:
-![demo](./images/recom.png)
-
-## Comment System:
-![comment](./images/comment.png)
 
 # Key Features
 - Friendly UI for unique users
