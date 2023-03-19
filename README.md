@@ -1,11 +1,9 @@
 # AImpression [![Netlify Status](https://api.netlify.com/api/v1/badges/69a6c35e-0e56-42e1-8a08-d1f0bc6224a3/deploy-status)](https://app.netlify.com/sites/social-wall/deploys)
 
 
-A full stack application using MERN. 
+As the creator of AImpressions, my primary goal is to provide a platform where users can discover, share, and appreciate the incredible world of AI-generated art. I believe that the fusion of artificial intelligence and human creativity opens up a whole new realm of possibilities in the visual arts, and I want to create a community that embraces this exciting frontier.
 
-## Link (deployed w/ free tier Heroku, may take a while to load content): 
-https://aimpression.netlify.app/
-
+AImpressions aims to bring together artists, AI enthusiasts, and art lovers to engage in meaningful conversations, collaborations, and creative exploration. By showcasing an ever-growing collection of AI-generated images, we strive to inspire and challenge traditional notions of art while celebrating the unique perspectives that AI brings to the table. In this vibrant digital space, our users can not only marvel at the breathtaking creations but also find inspiration, learn from each other, and contribute to the ongoing evolution of AI-generated art.
 
 ![](./images/home.png)
 
