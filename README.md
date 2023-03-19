@@ -4,7 +4,7 @@
 A full stack application using MERN. 
 
 ## Link (deployed w/ free tier Heroku, may take a while to load content): 
-https://social-wall.netlify.app/
+https://aimpression.netlify.app/
 
 
 ![](./images/home.png)
